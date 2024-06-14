@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM?4.0.0"
+     xmlns:ksi="http://www.w3.org/2001/XMLScheme-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+            <modelVersion>4.0.0</modelVersion>
+            <groupid>com.example<groupid>
+            <artifactid>simple-maven-project</artifactid>
+              <version>1.0-SNAPSHOT</version>
+              <packaging>jar</packaging>
+
+              <properties>
+                <maven.compliler.source>11</maven.compiler.source>
+                   <maven.compiler.target>11</maven.compiler.target>
+                </properties>
+              
+              <dependencies>
+                <dependency>
+
+  <groupid>org.apache.httpcomponents</groupid>
+      <artifactid>httpclient</artifactid>
+      <version>4.5.13</verion>
+      </dependency>
+      <dependency>
+          <groupid>junit</groupid>
+          <artifactid>junit</artifactid>
+          <version>4.12</version>
+         <scope>test</scope>
+      </dependency>
+              </dependencies>
+            </project>
